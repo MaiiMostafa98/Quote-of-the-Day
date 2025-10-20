@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body
+{
+   background-image: url(../photo/img_mountains.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+    display: flex;                
+   justify-content: center;      
+   align-items: center;          
+   flex-direction: column;       
+   text-align: center; 
+}
+
+.background
+{
+   border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border: solid 2px black;
+   width: 70%;
+   margin: auto;
+    display: flex;                
+   justify-content: center;      
+   align-items: center;          
+   flex-direction: column;       
+   text-align: center; 
+padding:20px 20px ;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+h3
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(68, 68, 68); 
+   margin-top: 70px;
+}
+
+p
+{
+   font-size: xx-large;
+   font-weight: 100;
+   
+}
+
+button
+{
+   /* background-color: rgb(165, 165, 178); */
+   background: transparent;
+   opacity: 0.7;
+   padding: 15px 50px ;
+   margin-bottom: 50px;
+   margin-top: 80px;
+   border-radius: 15px;
+   border: rgb(45, 45, 45) solid;
+   color: rgb(231, 231, 237);
+}
+
+button:hover
+{
+   background: transparent;
+   opacity: 1.0;
+}
+
+.style
+{
+    font-size: xx-large;
+   font-weight: 400;
+}
+.style2
+{
+    font-size: xx-large;
+   font-weight: 400;
+   color: gray;
+}

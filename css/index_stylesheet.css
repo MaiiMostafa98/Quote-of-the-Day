@@ -9,7 +9,7 @@
 
 body
 {
-   background-image: url(../photo/img_mountains.jpg);
+   background-image: url(../photo/2.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -19,13 +19,14 @@ body
    align-items: center;          
    flex-direction: column;       
    text-align: center; 
+   
 }
 
 .background
 {
    border-bottom-left-radius: 30px;
    border-top-right-radius: 30px;
-   border: solid 2px black;
+   border: solid 2px rgb(113, 113, 113);
    width: 70%;
    margin: auto;
     display: flex;                
@@ -58,19 +59,14 @@ button
    /* background-color: rgb(165, 165, 178); */
    background: transparent;
    opacity: 0.7;
-   padding: 15px 50px ;
+   padding: 15px 30px ;
    margin-bottom: 50px;
    margin-top: 80px;
    border-radius: 15px;
-   border: rgb(45, 45, 45) solid;
-   color: rgb(231, 231, 237);
+   border: rgb(147, 147, 147) solid;
+   color: rgb(36, 36, 36);
 }
 
-button:hover
-{
-   background: transparent;
-   opacity: 1.0;
-}
 
 .style
 {
